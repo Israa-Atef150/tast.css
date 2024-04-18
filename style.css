@@ -1,0 +1,32 @@
+.articles {
+    display: flex;
+    gap: 14px;
+
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+
+
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+.text :nth-child(1) {
+    color: red;
+}
+
+.text :nth-child(2) {
+    color: black;
+    display: block;
+    text-align: right;
+
+}
